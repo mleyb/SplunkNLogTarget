@@ -10,7 +10,7 @@ using NLog.Common;
 using NLog.Config;
 using NLog.Targets;
 
-namespace Haukcode.SplunkNLogTarget
+namespace SplunkNLogTarget
 {
     [Target("Splunk")]
     public class SplunkTarget : TargetWithLayout
